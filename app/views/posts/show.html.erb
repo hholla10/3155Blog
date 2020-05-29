@@ -43,3 +43,8 @@ div class="section">
     <%= f.button :submit, 'Post Pizza Topic', class: "button is-danger" %>
     <% end %>
 </div>
+
+<div>
+<%= render @post.comments %>    
+ <%= render "comments/form" %>
+</div>
